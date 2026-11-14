@@ -6,7 +6,7 @@ Custom implementation of median filter and morphological operations in Python wi
 - **`frame(matrix, value)`** – Adds a 1-pixel border (padding) around the binary matrix to prevent `IndexError` when analyzing edge pixels.
 - **`denoising(matrix)`** – Custom 3x3 median filter that removes salt-and-pepper noise by majority voting of neighboring pixels.
 - **`erosion(matrix)`** – Morphological erosion that shrinks object boundaries and removes remaining isolated white pixels from the background.
-- - **`dilation(matrix)`** – Expands foreground (white) regions using a structuring element to fill small internal holes and smooth jagged object boundaries.
+- **`dilation(matrix)`** – Expands foreground (white) regions using a structuring element to fill small internal holes and smooth jagged object boundaries.
 
 
 ## Requirements
